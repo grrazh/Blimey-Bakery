@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Chickpeas; /* Гарнитура шрифта */
+    src: url(../fonts/Chickpeas.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: HelveticaNeueLight; /* Гарнитура шрифта */
+    src: url(../fonts/HelveticaNeueLight.ttf); /* Путь к файлу со шрифтом */
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    font: 100%, HelveticaNeueLight;
+}
+.we-bake{
+    padding: 2% 5%;
+}
+.caption{
+    font-family: Chickpeas;
+    font-size: 4em;
+    color: #9e7051;
+    text-align: center;
+    padding-top: 2%;
+}
+.nav{
+    background-color: #77b5e0;
+}
+a{
+    color: #ffffff;
+    font-size: larger;
+}
+footer{
+    background-color: #77b5e0;
+    color: #ffffff;
+
+}
+.white{
+    color: #fff;
+}
+.social{
+    padding: 0 20px;
+}
+.left{
+    text-align: right;
+}
+span{
+    color: #9e7051;
+}
+.align{
+    display: inline;
+}
+.border-none{
+    border: none;
+}
+.thumbnail > a:hover, a:focus {
+    color: #6c2e08;
+    text-decoration: underline;
+}
+form{
+    font-family: HelveticaNeueLight;
+}
+.nav > li > .menu-pic{
+    padding: 0px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: none;
+}
+
+.nav > li > a:hover {
+    background: none;
+    color: rgba(0,0,0,0.2);
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: rgba(0,0,0,0.5);
+    background-color: #77b5e0;
+}
+
+.flotation {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
